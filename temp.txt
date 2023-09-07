@@ -1,0 +1,13 @@
+<View style={styles.header}>
+          <View style={styles.searchBar}>
+            <TextInput
+              style={styles.searchInput}
+              placeholder="Enter City ..."
+              value={searchTerm}
+              onChangeText={setSearchTerm}
+            />
+            <TouchableOpacity style={styles.submitButton} onPress={onSubmit}>
+              <Text style={styles.submitButtonText}>Search</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
